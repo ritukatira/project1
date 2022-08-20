@@ -1,0 +1,11 @@
+using System;
+
+public class number
+{
+    static void Main(string[] args)
+    {
+        float a = 12.434565F;
+        Console.WriteLine("Integer value " + a + 
+                          " is " + Math.Round(a));
+    }
+}
