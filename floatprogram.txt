@@ -4,7 +4,7 @@ public class number
 {
     static void Main(string[] args)
     {
-        float a = 12.434565F;
+        float a = 11.342F;
         Console.WriteLine("Integer value " + a + 
                           " is " + Math.Round(a));
     }
