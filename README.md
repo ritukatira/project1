@@ -1,2 +1,2 @@
 # project1
-C# program input as float and output as integer
+This is my first repository
