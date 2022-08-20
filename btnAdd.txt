@@ -1,0 +1,23 @@
+Q:- A asp.net program to add textbox, button,listbox,textbox value should be added to listbox by clicking submit button clear textbox?
+
+//To add Textbox,Button,Listbox in  design form 
+
+<div>
+        <asp:TextBox ID="TextBox1" runat="server"> </asp:TextBox>
+        <br />
+        <br />
+        <asp:ListBox ID="ListBox1" runat="server" Width="150" Height="60"></asp:ListBox>
+        <br />
+        <asp:Button ID="btnAdd" runat="server" Text="Submit" OnClick="btnAdd_Click" />
+    </div>
+
+// function code of Button click 
+
+ protected void btnAdd_Click(object sender, EventArgs e)
+        {
+            if (TextBox1.Text != "")
+            {
+                ListBox1.Items.Add(TextBox1.Text);
+                TextBox1.Text = "";
+            }
+         }
