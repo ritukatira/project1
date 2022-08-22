@@ -1,0 +1,8 @@
+
+This program throws outofrange error because the loop starts at zero, and ends at Length-1 because index is no longer less than Length.
+int a = arr[5];
+
+for (int index = 0; index < arr.Length; index++)
+{
+    Console.WriteLine(arr[index]);
+}
